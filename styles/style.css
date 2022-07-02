@@ -62,11 +62,11 @@
   text-decoration: none;
   color: #2f80ed;
   font-size: 18px;
+  transition-duration: 800ms;
+  transition-timing-function: linear;
 }
 
 .header__link:hover{
-  transition-duration: 800ms;
-  transition-timing-function: linear;
   opacity: 0.4;
 }
 
@@ -88,7 +88,6 @@
   right: 0;
   top: 64px;
   position: absolute;
-  animation: ;
 }
 
 .description {
@@ -250,11 +249,11 @@
   text-decoration: none;
   color: #2f80ed;
   font-weight: normal;
+  transition-duration: 800ms;
+  transition-timing-function: linear;
 }
 
 .feynman__link:hover{
-  transition-duration: 800ms;
-  transition-timing-function: linear;
   opacity: 0.4;
 }
 
@@ -433,11 +432,6 @@
   justify-content: flex-start;
   margin-bottom: 16px;
 }
-.footer__column-links:hover{
-transition-duration: 800ms;
-transition-timing-function: linear;
-opacity: 0.4;
-}
 .footer__column-link {
   color: white;
   font-size: 18px;
@@ -453,10 +447,11 @@ opacity: 0.4;
   padding-inline-start: 0;
   margin-block-end: 0;
   margin-bottom: 16px;
-}
-.footer__column-link:hover{
   transition-duration: 800ms;
   transition-timing-function: linear;
+}
+
+  .footer__column-link:hover{
   opacity: 0.4;
 }
 
@@ -616,11 +611,11 @@ margin-bottom: 10px;
   color: #2f80ed;
   margin-top: 68px;
   margin-left: 48px;
+  transition-duration: 800ms;
+  transition-timing-function: linear;
 }
 
 .khan_buy-link:hover{
-  transition-duration: 800ms;
-  transition-timing-function: linear;
   opacity: 0.4;
 }
 
@@ -673,10 +668,10 @@ margin-bottom: 10px;
 }
 .resources_logo{
   width: 270px;
+  transition-duration: 800ms;
+  transition-timing-function: linear;
 }
 
 .resources_logo:hover{
-  transition-duration: 800ms;
-  transition-timing-function: linear;
   opacity: 0.4;
 }
