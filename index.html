@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./Vendor/normalize.css">
+  <link rel="stylesheet" href="/styles/style.css">
   <title class="title">Научиться учиться</title>
 </head>
 
@@ -41,44 +41,47 @@
       <h2 class="section-title">Техники обучения</h2>
       <p class="section-subtitle">Пять практик от Барбары Оакли</p>
       <ul class="cards">
-        <li class="cards_item">
-          <img class="cards_image" src="./images/cards-attention.png">
-          <h2 class="cards_title">Два вида внимания</h2>
-          <h3 class="cards_description">Глубокие знания возникают если чередовать, сфокусированное и рассеянное
+        <li class="cards__item">
+          <img class="cards__image" alt="На фото девушка держит в руках книгу" src="./images/cards-attention.png">
+          <h2 class="cards__title">Два вида внимания</h2>
+          <h3 class="cards__description">Глубокие знания возникают если чередовать, сфокусированное и рассеянное
             мышление.</h3>
         </li>
-        <li class="cards_item">
-          <img class="cards_image" src="./images/cards-recall.png">
-          <h2 class="cards_title">Recall</h2>
-          <h3 class="cards_description">Вспоминайте изученное, это позволит соединить разрозненные порции памяти.</h3>
+        <li class="cards__item">
+          <img class="cards__image" alt="На фото изображена античная скульптура" src="./images/cards-recall.png">
+          <h2 class="cards__title">Recall</h2>
+          <h3 class="cards__description">Вспоминайте изученное, это позволит соединить разрозненные порции памяти.</h3>
         </li>
-        <li class="cards_item">
-          <img class="cards_image" src="./images/cards-interliving.png">
-          <h2 class="cards_title">Интерливинг</h2>
-          <h3 class="cards_description">Изучайте несколько навыков одновременно, они обогащают друг друга.</h3>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/cards-interliving.png" alt="Панарамное фото архитектурного объекта">
+          <h2 class="cards__title">Интерливинг</h2>
+          <h3 class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</h3>
         </li>
-        <li class="cards_item">
-          <img class="cards_image" src="./images/cards-question.png">
-          <h2 class="cards_title">Вопросы</h2>
-          <h3 class="cards_description">Cлушая преподавателя придумывайте хороший вопрос, который вас действительно
+        <li class="cards__item">
+          <img class="cards__image" src="./images/cards-question.png"
+            alt="На фото изображен одинокий задумавшийся человек стоящий между выысоких зданий">
+          <h2 class="cards__title">Вопросы</h2>
+          <h3 class="cards__description">Cлушая преподавателя придумывайте хороший вопрос, который вас действительно
             волнует.</h3>
         </li>
-        <li class="cards_item">
-          <img class="cards_image" src="./images/cards-competence.png">
-          <h2 class="cards_title">Иллюзия компетентности</h2>
-          <h3 class="cards_description">Повторите про себя, запишите, расскажите другу: вам только кажется что вы
+        <li class="cards__item">
+          <img class="cards__image" src="./images/cards-competence.png"
+            alt="фотография руки на которой стопкой сложены книги">
+          <h2 class="cards__title">Иллюзия компетентности</h2>
+          <h3 class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется что вы
             владеете новой темой.</h3>
         </li>
+      </ul>
     </section>
     <section class="video">
       <h2 class="section-title">Видео на TED</h2>
       <p class="section-subtitle">Для тех кто любит прокрастинировать</p>
-      <div class="video_iframes">
-        <iframe class="video_iframe" width="560" height="315" src="https://www.youtube.com/embed/arj7oStGLkU"
+      <div class="video__iframes">
+        <iframe class="video__iframe" width="560" height="315" src="https://www.youtube.com/embed/arj7oStGLkU"
           title="YouTube video player" frameborder="0"
           allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
-        <iframe class="video_iframe" width="560" height="315" src="https://www.youtube.com/embed/5MgBikgcWnY"
+        <iframe class="video__iframe" width="560" height="315" src="https://www.youtube.com/embed/5MgBikgcWnY"
           title="YouTube video player" frameborder="0"
           allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
@@ -142,17 +145,18 @@
       </ul>
     </section>
     <section class="khan">
-      <div class="khan_container">
-        <p class="khan_author">Салман Хан</p>
-        <h4 class="khan_title">Весь мир - школа</h4>
-        <p class="khan_quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру.
+      <div class="khan__container">
+        <p class="khan__author">Салман Хан</p>
+        <h4 class="khan__title">Весь мир - школа</h4>
+        <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему
+          миру.
           Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут
           получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
-        <p class="khan_quote-author">Джордж Лукас</p>
-        <p class="khan_quote-author-subtitle">Кинорежиссёр, продюсер</p>
-        <div class="khan_book-container">
-          <img class="khan_book-pic">
-          <a href="#" class="khan_buy-link">Купить книгу&rarr;</a>
+        <p class="khan__quote-author">Джордж Лукас</p>
+        <p class="khan__quote-author-subtitle">Кинорежиссёр, продюсер</p>
+        <div class="khan__book-container">
+          <div class="khan__book-pic"></div>
+          <a href="#" class="khan__buy-link">Купить книгу&rarr;</a>
         </div>
       </div>
     </section>
@@ -207,15 +211,15 @@
     <section class="resources">
       <h2 class="section-title">Полезные ресурсы</h2>
       <p class="section-subtitle">Больше материалов о техниках и лайфахаках обучения</p>
-      <ul class="resources_logo-zone">
-        <li><a class="resources_link" href="#"> <img class="resources_logo"
-              src="./images/logo/resources-arzamas.svg"></a></li>
-        <li></li><a class="resources_link" href="#"> <img class="resources_logo"
-            src="./images/logo/resources-n1.svg"></a></li>
-        <li></li><a class="resources_link" href="#"> <img class="resources_logo"
-            src="./images/logo/resources-strelka.svg"></a></li>
-        <li></li><a class="resources_link" href="#"> <img class="resources_logo"
-            src="./images/logo/resources-polka.svg"></a></li>
+      <ul class="resources__logo-zone">
+        <li><a class="resources__link" href="#"> <img class="resources__logo" src="./images/logo/resources-arzamas.svg"
+              alt="Логотим Arzamas"></a></li>
+        <li><a class="resources__link" href="#"> <img class="resources__logo" src="./images/logo/resources-n1.svg"
+              alt="Логотип Номер 1"></a></li>
+        <li><a class="resources__link" href="#"> <img class="resources__logo" src="./images/logo/resources-strelka.svg"
+              alt="Логотип Стрелка"></a></li>
+        <li><a class="resources__link" href="#"> <img class="resources__logo" src="./images/logo/resources-polka.svg"
+              alt="Логотип Полка"></a></li>
       </ul>
     </section>
   </main>
@@ -237,11 +241,13 @@
         <h3 class="footer__column-heading">Соцсети</h3>
         <ul class="footer__column-links">
           <li> <a href="https://www.facebook.com/"><img class="footer__social-icon"
-                src="./images/facebook_color_white.svg"></a><a class="footer__column-link" href="#">Facebook</a></li>
-          <li><a href="https://vk.com/"><img class="footer__social-icon" src="./images/vk_color_white.svg"></a><a
-              class="footer__column-link" href="#">ВКонтакте</a></li>
+                src="./images/facebook_color_white.svg" alt="Иконка социальной сети Фейсбук"></a><a
+              class="footer__column-link" href="#">Facebook</a></li>
+          <li><a href="https://vk.com/"><img class="footer__social-icon" src="./images/vk_color_white.svg"
+                alt="Иконка социальной сети Вконтакте"></a><a class="footer__column-link" href="#">ВКонтакте</a></li>
           <li><a href="https://www.instagram.com/"><img class="footer__social-icon"
-                src="./images/instagram_color_white.svg"></a><a class="footer__column-link" href="#">Instagram</a></li>
+                src="./images/instagram_color_white.svg" alt="Иконка социальной сети Инстаграмм"></a><a
+              class="footer__column-link" href="#">Instagram</a></li>
         </ul>
       </nav>
     </div>

@@ -1,0 +1,12 @@
+
+.table_theme_dark {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: rgb(255, 255, 255);
+  list-style-type: none;
+}
