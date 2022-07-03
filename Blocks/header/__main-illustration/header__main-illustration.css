@@ -2,7 +2,7 @@
   width: 765px;
   height: 608px;
   position: absolute;
-  background-image: url(/images/header-image.png);
+  background-image: url(../../../images/header-image.png);
   background-size: cover;
   z-index: 2;
   right: 0;
