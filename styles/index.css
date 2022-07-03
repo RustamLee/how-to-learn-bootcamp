@@ -1,4 +1,4 @@
-@import url(../Blocks/Root/root.css);
+@import url(../Blocks/pages/root.css);
 @import url(../Blocks/header/header.css);
 @import url(../Blocks/logo/logo.css);
 @import url(../Blocks/logo/_place/logo_place_header.css);
@@ -65,23 +65,4 @@
 @import url(../Blocks/table/__cell/_theme/table__cell_theme_dark.css);
 @import url(../Blocks/table/__heading/_theme/table__heading_theme_dark.css);
 @import url(../Blocks/table/__text/_tneme/table__text_theme_dark.css);
-@import url(../Blocks/Root/rotation/keyframes.css);
-
-
-
-@keyframes rotation {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-.rotation {
-  animation-name: rotation;
-  animation-duration: 20s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
+@import url(../Blocks/Pages/rotation/keyframes.css);
