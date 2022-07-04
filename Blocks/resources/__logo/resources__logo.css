@@ -1,7 +1,6 @@
 .resources__logo{
   width: 270px;
-  transition-duration: 800ms;
-  transition-timing-function: linear;
+  transition: 800ms linear;
 }
 
 .resources__logo:hover{

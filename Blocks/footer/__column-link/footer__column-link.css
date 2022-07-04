@@ -12,9 +12,7 @@
   margin-block-start: 0;
   padding-inline-start: 0;
   margin-block-end: 0;
-  margin-bottom: 16px;
-  transition-duration: 800ms;
-  transition-timing-function: linear;
+  transition: 800ms linear;
 }
 
   .footer__column-link:hover{

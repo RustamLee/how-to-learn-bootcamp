@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./Vendor/normalize.css">
   <link rel="stylesheet" href="./styles/index.css">
   <title class="title">Научиться учиться</title>
 </head>
@@ -17,12 +16,13 @@
       жизни?
       <a href="#" class="header__link">Узнать &rarr;</a>
     </p>
-    <div class="header__main-illustration"></div>
+    <img class="header__main-illustration" src="./images/header-image.png"
+      alt="На фото изображен мальчик с картины Опять двойка, русского художника Федора Решетникова, 1952 год.">
     <div class="header__square-pic rotation"></div>
   </header>
   <main>
-    <div class="description">
-      <div class="two-columns">
+    <section class="description">
+      <article class="two-columns">
         <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
         <div class="two-columns__main-text">
           <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал.
@@ -35,8 +35,8 @@
           <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать
             его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
         </div>
-      </div>
-    </div>
+      </article>
+    </section>
     <section class="techniques">
       <h2 class="section-title">Техники обучения</h2>
       <p class="section-subtitle">Пять практик от Барбары Оакли</p>
@@ -44,32 +44,32 @@
         <li class="cards__item">
           <img class="cards__image" alt="На фото девушка держит в руках книгу" src="./images/cards-attention.png">
           <h2 class="cards__title">Два вида внимания</h2>
-          <h3 class="cards__description">Глубокие знания возникают если чередовать, сфокусированное и рассеянное
-            мышление.</h3>
+          <p class="cards__description">Глубокие знания возникают если чередовать, сфокусированное и рассеянное
+            мышление.</p>
         </li>
         <li class="cards__item">
           <img class="cards__image" alt="На фото изображена античная скульптура" src="./images/cards-recall.png">
           <h2 class="cards__title">Recall</h2>
-          <h3 class="cards__description">Вспоминайте изученное, это позволит соединить разрозненные порции памяти.</h3>
+          <p class="cards__description">Вспоминайте изученное, это позволит соединить разрозненные порции памяти.</p>
         </li>
         <li class="cards__item">
           <img class="cards__image" src="./images/cards-interliving.png" alt="Панарамное фото архитектурного объекта">
           <h2 class="cards__title">Интерливинг</h2>
-          <h3 class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</h3>
+          <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
         </li>
         <li class="cards__item">
           <img class="cards__image" src="./images/cards-question.png"
             alt="На фото изображен одинокий задумавшийся человек стоящий между выысоких зданий">
           <h2 class="cards__title">Вопросы</h2>
-          <h3 class="cards__description">Cлушая преподавателя придумывайте хороший вопрос, который вас действительно
-            волнует.</h3>
+          <p class="cards__description">Cлушая преподавателя придумывайте хороший вопрос, который вас действительно
+            волнует.</p>
         </li>
         <li class="cards__item">
           <img class="cards__image" src="./images/cards-competence.png"
             alt="фотография руки на которой стопкой сложены книги">
           <h2 class="cards__title">Иллюзия компетентности</h2>
-          <h3 class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется что вы
-            владеете новой темой.</h3>
+          <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется что вы
+            владеете новой темой.</p>
         </li>
       </ul>
     </section>
@@ -77,18 +77,16 @@
       <h2 class="section-title">Видео на TED</h2>
       <p class="section-subtitle">Для тех кто любит прокрастинировать</p>
       <div class="video__iframes">
-        <iframe class="video__iframe" width="560" height="315" src="https://www.youtube.com/embed/arj7oStGLkU"
-          title="YouTube video player"
+        <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player"
           allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
-        <iframe class="video__iframe" width="560" height="315" src="https://www.youtube.com/embed/5MgBikgcWnY"
-          title="YouTube video player"
+        <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player"
           allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
       </div>
     </section>
     <section class="oakley">
-      <div class="two-columns">
+      <article class="two-columns">
         <h2 class="two-columns__brief">История Барбары Оакли</h2>
         <div class="two-columns__main-text">
           <p class="two-columns__paragraph">С детства Барбаре не давалась математика. Она считала себя законченным
@@ -97,7 +95,7 @@
             тогда Барбара придумала свой подход к точным наукам. Оказалось, если вам что-то «плохо даётся», ваши добытые
             трудом знания гораздо глубже, чем у тех, кому всё ясно с первого взгляда.</p>
         </div>
-      </div>
+      </article>
     </section>
     <section class="feynman">
       <h2 class="feynman__title">Метод Фейнмана</h2>
@@ -147,7 +145,7 @@
     <section class="khan">
       <div class="khan__container">
         <p class="khan__author">Салман Хан</p>
-        <h4 class="khan__title">Весь мир - школа</h4>
+        <h2 class="khan__title">Весь мир - школа</h2>
         <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему
           миру.
           Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут
@@ -155,7 +153,8 @@
         <p class="khan__quote-author">Джордж Лукас</p>
         <p class="khan__quote-author-subtitle">Кинорежиссёр, продюсер</p>
         <div class="khan__book-container">
-          <div class="khan__book-pic"></div>
+          <img class="khan__book-pic" src="./images/khan-book.jpg"
+            alt="Изображение обложки книги Весь мир школа автор Салман Хан">
           <a href="#" class="khan__buy-link">Купить книгу&rarr;</a>
         </div>
       </div>

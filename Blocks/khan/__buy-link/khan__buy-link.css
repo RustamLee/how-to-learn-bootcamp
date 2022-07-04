@@ -7,8 +7,7 @@
   color: #2f80ed;
   margin-top: 68px;
   margin-left: 48px;
-  transition-duration: 800ms;
-  transition-timing-function: linear;
+  transition: 800ms linear;
 }
 
 .khan__buy-link:hover{

@@ -2,8 +2,7 @@
   text-decoration: none;
   color: #2f80ed;
   font-size: 18px;
-  transition-duration: 800ms;
-  transition-timing-function: linear;
+  transition: 800ms linear;
 }
 
 .header__link:hover{
