@@ -8,6 +8,7 @@
   margin-top: 68px;
   margin-left: 48px;
   transition: 800ms linear;
+  align-items: flex-start;
 }
 
 .khan__buy-link:hover{
